@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// Base class
+
 class publication {
 protected:
     string title;
@@ -22,7 +22,7 @@ public:
     }
 };
 
-// Derived class: Book
+
 class book : public publication {
 private:
     int page_count;
@@ -40,7 +40,7 @@ public:
     }
 };
 
-// Derived class: Tape
+
 class tape : public publication {
 private:
     float playing_time;
